@@ -1,0 +1,83 @@
+body{
+    background-color: #1a191a;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.titel-nav{
+    color: white;
+    display: inline-block;
+    font-size: 30px;
+
+}
+
+.nav-1{
+    display: block;
+    background-color: white;
+    width: 30px;
+    height: 3px;
+    margin-top: 5px;
+    display: inline-block;
+    float: right;
+    margin-top: 43px;
+}
+
+.nav-2{
+    display: block;
+    background-color: white;
+    width: 30px;
+    height: 3px;
+    margin-top: 5px;
+    display: inline-block;
+    float: right;
+    margin-top: -48px;
+}
+
+.navbar{
+    padding: 0px 9%;
+    margin-top: 2%;
+    
+}
+
+.img img{
+    width: 600px;
+    height: 530px;
+    margin-top: 0%;
+   
+
+}
+.txt{
+    
+    color: white;
+    font-size: 100px;
+    margin-bottom: 30px;
+
+
+}
+.img{
+    display: inline-block;
+    width: 34%;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-bottom: 25px;
+}
+
+.banner{
+    display: inline-block;
+    width: 35%;
+    margin-left: 3%;
+
+}
+.txt1{
+    
+    color: white;
+    font-size: 14px;
+    margin-bottom: 11%;
+
+}
+.btn{
+    border: 1px solid white;
+    padding: 20px 35px;
+    text-decoration: none;
+    color: white;
+
+}
