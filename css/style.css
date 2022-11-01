@@ -7,6 +7,8 @@ body{
     color: white;
     display: inline-block;
     font-size: 30px;
+    z-index: 2;
+    position: relative;
 
 }
 
@@ -19,6 +21,8 @@ body{
     display: inline-block;
     float: right;
     margin-top: 43px;
+    z-index: 2;
+    position: relative;
 }
 
 .nav-2{
@@ -30,6 +34,8 @@ body{
     display: inline-block;
     float: right;
     margin-top: -48px;
+    z-index: 2;
+    position: relative;
 }
 
 .navbar{
@@ -80,5 +86,19 @@ body{
     text-decoration: none;
     color: white;
     /* display: flex */
+
+}
+.colored{color: rgb(86, 124, 228);
+}
+.menu-nav{ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: black;
+    background-color: white;
+    clip-path: circle(50px at 100% -10%);
+    padding: 14%;
 
 }
